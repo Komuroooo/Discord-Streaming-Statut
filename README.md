@@ -7,5 +7,5 @@ Open your cmd and enter the command:
 - pip install discord
 
 # BEFORE RUNNING
-- Make sure to add your Discord token into the script. Example: token = "token_here"
-- token_here would where your discord token will go.
+- Make sure to add your Discord token into the script. Example: token = "PUT YOUR TOKEN HERE"
+- PUT YOUR TOKEN HERE would where your discord token will go.
