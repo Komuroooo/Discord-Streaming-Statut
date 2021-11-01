@@ -12,7 +12,7 @@ status = input(' > ')
 async def on_connect():
     stream = discord.Streaming(
         name = status,
-        url = 'htts://discord.gg/oklm'
+        url = 'https://discord.gg/oklm'
     )
     print('Streaming: ' + status)
     await bot.change_presence(activity=stream)
