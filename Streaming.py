@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-token = ""
+token = "PUT YOUR TOKEN HERE"
 
 bot = commands.Bot(command_prefix = "!")
 
@@ -12,7 +12,7 @@ status = input(' > ')
 async def on_connect():
     stream = discord.Streaming(
         name = status,
-        url = 'https://www.twitch.tv/twitch'
+        url = 'htts://discord.gg/oklm'
     )
     print('Streaming: ' + status)
     await bot.change_presence(activity=stream)
